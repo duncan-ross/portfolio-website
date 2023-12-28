@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sana Akbani</title>
+    <!-- <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /> -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.3.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.3.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.3.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+    <script defer src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script defer type="module" src="js/index.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <section class="box home"><a href="#home-section"><h2 class="dm-text">Home</h2></a></section>
+      <section class="box about"><a href="#about-section"><h2 class="dm-text">About</h2></a></section>
+      <section class="box experience"><a href="#experience-section"><h2 class="dm-text">Experience</h2></a></section>
+      <section class="box projects"><a href="#projects-section"><h2 class="dm-text">Projects</h2></a></section>
+      <img src="darkmode.png" class="darkmode-img toggle-img" style="cursor: pointer;">
+      <img src="lightmode.png" class="lightmode-img toggle-img" style="cursor: pointer;">
+    </div>
+    <section class="column full-width dm-bkg" id="home-section">
+        <div class="text">
+          <div>
+            <span id="sentence" class="header-text dm-text"></span>
+            <span class="input-cursor cursor-dm"></span>
+          </div>
+          <h2 class="margin-right dm-text">My name is Sana Akbani, and I'm a full-time student studying computer science, mathematics,
+              and business administration at the University of Houston. My career aspirations include software engineering and AI research.
+          </h2>
+          <h2 class="margin-right dm-text">Feel free to connect with or contact me through my socials below!</h2>
+          <section class="column icon-direction bottom slide-left-first">
+            <section class="rows icon">
+              <a href="https://www.linkedin.com/in/sana-akbani/" target="_blank"><img src="linkedinlight.png" class="dm-img icon"/></a>
+            </section>
+            <section class="rows icon">
+              <a href="https://github.com/sanaakbani" target="_blank"><img src="githublight.png" class="dm-img icon"/></a>
+            </section>
+            <section class="rows icon">
+              <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sanatakbani@gmail.com&tf=1" target="_blank"><img src="googlelight.png" class="dm-img icon"/></a>
+            </section>
+            <section class="rows icon">
+              <a href="https://www.facebook.com/sana.akbani.359" target="_blank"><img src="fblight.png" class="dm-img icon"/></a>
+            </section>
+            <section class="rows icon">
+              <a href="https://www.instagram.com/sanaakbani_/" target="_blank"><img src="iglight.png" class="dm-img icon"/></a>
+            </section>
+          </section>
+        </div>
+      <img src="img1.jpg" class="background-image slide-right-first"/>
+    </section>
+    <section class="column full-width" id="about-section">
+      <img src="img2.jpg" class="background-image no-margin-left js-scroll slide-left">
+      <div class="about-text js-scroll slide-right">
+        <h1 class="heading">About Me</h1>
+        <h2 class="front">I first found my passion for computer science at 8 years old! Since then, I went on to learn different 
+          programming languages whenever I got the chance. I'm proficient in Java, C++, 
+          JavaScript, HTML & CSS, Python, and Ruby/Ruby on Rails. Aside from coding, 
+          you can find me volunteering, painting, or drawing — anything where I can express myself 
+          creatively!</h2>
+          <a href="art.html"><h2 class="front right art-portfolio" style="cursor: pointer;">View My Art Portfolio ></h2></a>
+      </div>
+    </section>
+    <section class="row full-width" id="experience-section">
+      <img src="left border.png" class="slide-left border-left js-scroll dm-img"/>
+      <div class="experience-text">
+        <h1 class="heading exp js-scroll fade-in">Experience</h1>
+        <section class="row row2">
+          <a href="https://buildyourfuture.withgoogle.com/programs/computer-science-summer-institute"><img src="img4.png" class="exp-img js-scroll slide-left"/></a>
+          <h2 class="front text2 js-scroll slide-right">As a Google CSSI Scholar for the class of 2021, I allocated 45 hours attending daily live code-alongs
+            as well as configured 7+ individual coding projects utilizing concepts from a JavaScript and Firebase curriculum taught by Google engineers. 
+            At CSSI, I also had the opportunity to attend product design, resume development, and software engineering interview workshops hosted 
+            by some amazing and talented Googlers!
+          </h2>
+        </section>
+        <h2 class="front right text2 js-scroll slide-right">— Summer 2021</h2>
+        <section class="row row2">
+          <a href="https://buildyourfuture.withgoogle.com/programs/step/"><img src="step.png" class="exp-img js-scroll slide-left"/></a>
+          <h2 class="front text2 js-scroll slide-right">As a Google STEP Intern, I worked backend in C++ on the Route Decoration Platform Team under Google Maps.
+            My podmate and I collaborated to reinvent the RDP API, which provides descriptive information to routes (think elevation, traffic, and timing summaries),
+            while refactoring over 1500 lines of code in the Google codebase! I also got to test my code by implementing a server flag and made real-time 
+            requests in Google Maps to the RDP service.
+          </h2>
+        </section>
+        <h2 class="front right text2 js-scroll slide-right">— Summer 2022</h2>
+        <section class="row row2">
+          <a href="https://careers.google.com/students/engineering-and-technical-internships/"><img src="swe.png" class="exp-img js-scroll slide-left"/></a>
+          <h2 class="front text2 js-scroll slide-right">Incoming SWE Intern at Google!
+          </h2>
+        </section>
+        <h2 class="front right text2 js-scroll slide-right">— Summer 2023</h2>
+        <a href="current_resume.pdf" target="_blank"><h2 class="exp external bottom js-scroll fade-in dm-text">View My Resume ></h2></a>
+      </div>
+      <img src="border.png" class="border-right js-scroll slide-right dm-img"/>
+    </section>
+    <section class="row full-width" id="projects-section">
+      <div class="border-top js-scroll slide-left dm-img"></div>
+      <div class="border-top2 js-scroll slide-left dm-img"></div>
+      <div class="projects-text">
+        <h1 class="heading exp js-scroll fade-in align-top">Projects</h1>
+        <div>
+          <h2 class="exp external conocosafe underline red js-scroll slide-left proj-margin-top-bottom" style="cursor: pointer;">Conocosafe</h2>
+          <div class="conocosafe-proj">
+            <a href="https://conocosafe.web.app/" target="_blank"><img src="conocosafe.png" class="project-txt project-img"/></a>
+            <h2 class="text text3 no-margin-top project-txt">This web app utilizes Firebase hosting and features such as a Google Maps API 
+            to promote ConocoPhillips' mission statement in order to help solve issues surrounding employee 
+            injuries in the workforce.
+            </h2>
+          </div>
+        </div>
+        <div>
+          <h2 class="exp external birthday underline blue js-scroll slide-right proj-margin-top-bottom" style="cursor: pointer;">Birthday Profiles</h2>
+          <div class="birthday-proj">
+            <a href="https://birthday-profiles.web.app/" target="_blank"><img src="birthday_profiles.png" class="project-txt project-img"/></a>
+            <h2 class="text text3 no-margin-top project-txt">This web app features Google sign in authorization, Firebase storage, Firebase realtime database, Google Calendar 
+              API integration, a date countdown, and an email sending service, so you never forget a friend's birthday again!
+            </h2>
+          </div>
+        </div>
+        <div>
+          <h2 class="exp external happy underline green js-scroll slide-left proj-margin-top-bottom" style="cursor: pointer;">Happy Days</h2>
+          <div class="happy-proj">
+            <a href="" target="_blank"><img src="happydays.png" class="project-txt project-img"/></a>
+            <h2 class="text text3 no-margin-top project-txt align-top">Ranging from daily challenges and quotes to providing mental health apps of the day, this app advocates for and provides 
+              rescources to bring individuals on a journey to self-love!
+            </h2>
+          </div>
+        </div>
+        <h2 class="exp external js-scroll fade-in">View More Projects on</h2>
+        <section class="column3 js-scroll fade-in">
+          <a href="https://github.com/sanaakbani" target="_blank"><h2 class="exp date front text2 underline dm-text">Github</h2></a>
+          <a href="https://glitch.com/@xsakbanix" target="_blank"><h2 class="exp date front text2 underline dm-text">Glitch</h2></a>
+        </section>
+      </div>
+      <div class="border-bottom js-scroll slide-right dm-img"></div>
+      <div class="border-bottom2 js-scroll slide-right dm-img"></div>
+    </section>
+    <!-- <section class="row full-width" id="contact-section">
+        <h1 class="heading exp js-scroll fade-in-bottom align-top leadership-heading">Leadership Experience</h1>
+          <section class="rows">
+            <h2 class="exp title">Email</h2>
+            <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=sanatakbani@gmail.com&tf=1" target="_blank"><h2 class="exp date">sanatakbani@gmail.com</h2></a>
+          </section>
+    </section> -->
+    <img src="menubar.png" class="menu-img dm-img" style="cursor: pointer;"/>
+  </body>
+</html>
