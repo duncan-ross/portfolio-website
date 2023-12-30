@@ -107,6 +107,8 @@ $('.toggle-img').on('click', function() {
   document.querySelector(".lightmode-img").classList.toggle("display-img");
 
   // toggle dark and light mode social media images
-  document.querySelector(".linkedin-light").classList.toggle("hide-img");
-  document.querySelector(".linkedin-dark").classList.toggle("display-img");
+  document.querySelector(".dd-light").classList.toggle("hide-img");
+  document.querySelector(".dd-dark").classList.toggle("display-img");
+  document.querySelector(".amazon-light").classList.toggle("hide-img");
+  document.querySelector(".amazon-dark").classList.toggle("display-img");
 });

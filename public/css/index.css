@@ -193,7 +193,10 @@ body {
     }
 
     .exp-img {
-        height: 15vh;
+        max-width: 15vh;
+        max-height: 15vh;
+        width: auto;
+        height: auto;
     }
 
     .img {
@@ -490,6 +493,14 @@ body {
         display: none;
     }
 
+    .dd-dark {
+        display: none;
+    }
+
+    .amazon-dark {
+        display: none;
+    }
+
     .display-img {
         display: block;
     }
@@ -687,7 +698,10 @@ body {
     }
     
     .exp-img {
-        height: 10vh;
+        max-width: 15vh;
+        max-height: 15vh;
+        width: auto;
+        height: auto;
     }
     
     .img {
@@ -975,8 +989,16 @@ body {
     .dark-mode-img {
         filter: invert(1);
     }
-    
+
     .linkedin-dark {
+        display: none;
+    }
+    
+    .dd-dark {
+        display: none;
+    }
+
+    .amazon-dark {
         display: none;
     }
     
