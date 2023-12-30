@@ -253,15 +253,15 @@ body {
     }
 
     .red {
-        border-color:rgb(248, 0, 86);
+        border-color:rgb(255, 50, 122);
     }
 
     .blue {
-        border-color:rgb(27, 107, 255);
+        border-color:rgb(53, 124, 255);
     }
 
     .green {
-        border-color:rgb(20, 197, 20);
+        border-color:rgb(86, 187, 86);
     }
 
     .external {
@@ -749,15 +749,15 @@ body {
     }
     
     .red {
-        border-color:rgb(248, 0, 86);
+        border-color:rgb(255, 50, 122);
     }
     
     .blue {
-        border-color:rgb(27, 107, 255);
+        border-color:rgb(53, 124, 255);
     }
     
     .green {
-        border-color:rgb(20, 197, 20);
+        border-color:rgb(86, 187, 86);
     }
     
     .external {
