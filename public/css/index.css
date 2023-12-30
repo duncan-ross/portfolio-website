@@ -444,11 +444,11 @@ body {
     }
 
     .darkmode-img {
-        height: 4vh;
+        height: 6vh;
         position: absolute;
         top: 0;
         right: 0;
-        margin-top: 2.5vh;
+        margin-top: 2vh;
         margin-right: 2vw;
         vertical-align: middle;
         color: black;
