@@ -1,4 +1,4 @@
 # portfolio-wesbite
 My personal portfolio website.
 
-[duncanross.xyz](https://www.duncanross.xyz)
+My personal portfolio website: [duncanross.xyz](https://duncanross.xyz?to=/)
