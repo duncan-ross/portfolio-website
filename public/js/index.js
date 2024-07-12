@@ -44,7 +44,7 @@ function waitForMs(ms) {
     return new Promise(resolve => setTimeout(resolve, ms))
 }
 
-typeSentence("Hello.", "#sentence");
+typeSentence("Hello there.", "#sentence");
 
 const scrollOffset = 5;
  
