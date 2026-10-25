@@ -1,151 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Duncan Ross</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍎</text></svg>">
+    <meta name="description" content="Duncan Ross, machine learning engineer at Google, focused on user modeling and building new things with AI.">
+    <meta name="color-scheme" content="light dark">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%232f5bd3%22/><text x=%2250%22 y=%2266%22 font-family=%22system-ui,sans-serif%22 font-size=%2246%22 font-weight=%22600%22 fill=%22white%22 text-anchor=%22middle%22>DR</text></svg>">
     <link rel="stylesheet" href="css/index.css">
-    <script defer src="/__/firebase/8.3.1/firebase-app.js"></script>
-    <script defer src="/__/firebase/8.3.1/firebase-auth.js"></script>
-    <script defer src="/__/firebase/8.3.1/firebase-database.js"></script>
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-    <script defer src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script defer type="module" src="js/index.js"></script>
   </head>
   <body>
-    <div class="header">
-      <section class="box home"><a href="#home-section"><h2 class="dm-text">Home</h2></a></section>
-      <section class="box about"><a href="#about-section"><h2 class="dm-text">About</h2></a></section>
-      <section class="box experience"><a href="#experience-section"><h2 class="dm-text">Experience</h2></a></section>
-      <section class="box projects"><a href="#projects-section"><h2 class="dm-text">Projects</h2></a></section>
-      <img src="img/darkmode.png" class="darkmode-img toggle-img" style="cursor: pointer;">
-      <img src="img/lightmode.png" class="lightmode-img toggle-img" style="cursor: pointer;">
-    </div>
-    <section class="column full-width dm-bkg" id="home-section">
-        <div class="text">
-          <div>
-            <span id="sentence" class="header-text dm-text"></span>
-            <span class="input-cursor cursor-dm"></span>
+    <main class="page">
+      <header class="intro">
+        <h1>Duncan Ross</h1>
+        <p class="lede">Machine learning engineer at Google, focused on user modeling and on building new things with AI.</p>
+        <nav class="links" aria-label="Contact">
+          <a href="https://github.com/duncan-ross">GitHub</a>
+          <a href="https://www.linkedin.com/in/duncanrosss/">LinkedIn</a>
+          <a href="mailto:duncanross.eng@gmail.com">Email</a>
+        </nav>
+      </header>
+
+      <section class="section" id="work">
+        <h2 class="section-title">Work</h2>
+        <!-- PLACEHOLDER: replace this whole block with Duncan's approved wording, then drop the .placeholder class. -->
+        <article class="role placeholder">
+          <div class="role-head">
+            <h3>Google</h3>
+            <span class="meta">[Start year] – Present</span>
           </div>
-          <h2 class="margin-right dm-text">Hi! My name is Duncan, and I'm an ML Engineer at Google. I'm interested in generative AI, causal inference, and optimization.
-          </h2>
-          <h2 class="margin-right dm-text">Connect with me:
-          </h2>
-          <section class="column icon-direction bottom slide-left-first">
-            <section class="rows icon">
-              <a href="https://www.linkedin.com/in/duncanrosss/" target="_blank"><img src="img/linkedin.png" class="dm-img icon"/></a>
-            </section>
-            <section class="rows icon">
-              <a href="https://github.com/duncan-ross" target="_blank"><img src="img/github.png" class="dm-img icon"/></a>
-            </section>
-            <section class="rows icon">
-              <a href="https://mail.google.com/mail/u/1/?view=cm&fs=1&to=duncanross.eng@gmail.com&tf=1" target="_blank"><img src="img/email.png" class="dm-img icon"/></a>
-            </section>
-          </section>
+          <p class="role-title">[Role title] · [Team]</p>
+          <p>[PLACEHOLDER: two or three sentences on what you work on at Google and why it matters. Wording to come from Duncan.]</p>
+          <ul>
+            <li>[PLACEHOLDER: highlight one]</li>
+            <li>[PLACEHOLDER: highlight two]</li>
+            <li>[PLACEHOLDER: highlight three]</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects">
+          <!--
+            To add a project, copy this block to the top of the list:
+
+            <article class="project">
+              <div class="project-head">
+                <h3><a href="https://github.com/duncan-ross/REPO">Project name</a></h3>
+                <span class="meta">Year</span>
+              </div>
+              <p>One or two sentences on what it does and what's interesting about it.</p>
+              <ul class="tags"><li>Tag</li><li>Tag</li></ul>
+            </article>
+          -->
+          <article class="project">
+            <div class="project-head">
+              <h3><a href="https://github.com/duncan-ross/cv-fall-risk-predictions">Predicting fall risk from smartphone video</a></h3>
+              <span class="meta">Stanford CS231N</span>
+            </div>
+            <p>Predicts a patient's fall risk from sit-to-stand videos filmed at home, as a cheaper alternative to lab tests. Combines pose estimation with video classification, using markers like ankle angle and hip rotation.</p>
+            <ul class="tags"><li>Computer vision</li><li>Pose estimation</li></ul>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <h3><a href="https://github.com/duncan-ross/nlp-toefl-autograder">Automated English proficiency grading</a></h3>
+              <span class="meta">Stanford CS224N</span>
+            </div>
+            <p>Transformer models that score written and spoken English proficiency exams such as the TOEFL and FCE, aiming for assessments that are more accurate and fair.</p>
+            <ul class="tags"><li>NLP</li><li>Transformers</li></ul>
+          </article>
+
+          <article class="project">
+            <div class="project-head">
+              <h3><a href="https://github.com/duncan-ross/Glassdoor-Research">Employee sentiment around IPOs</a></h3>
+              <span class="meta">Research</span>
+            </div>
+            <p>Management science research on how employee sentiment changes before and after a company's IPO. End to end, from scraping Glassdoor reviews to clustering, topic modeling and analysis.</p>
+            <ul class="tags"><li>NLP</li><li>Topic modeling</li></ul>
+          </article>
         </div>
-      <img src="img/img1.jpg" class="background-image slide-right-first"/>
-    </section>
-    <section class="column full-width" id="about-section">
-      <img src="img/img2.jpg" class="background-image no-margin-left js-scroll slide-left">
-      <div class="about-text js-scroll slide-right">
-        <h1 class="heading">About Me</h1>
-        <h2 class="front">I was born in Buenos Aires, Argentina and grew up in sunny South Florida. I love traveling, drinking mate, hiking, and anything Star Wars. I'm also a huge fan of the Miami Heat, the Florida Gators, and all Argentine sports teams! </h2>
-          </h2>
-      </div>
-    </section>
-    <section class="row full-width" id="experience-section">
-      <div class="experience-text">
-        <h1 class="heading exp js-scroll fade-in">Education</h1>
-        <h2 class="front right text2 js-scroll slide-right">2022-2024</h2>
-        <section class="row row2">
-          <img src="img/stanford.png" class="exp-img js-scroll slide-left"/>
-          <h2 class="front text2 js-scroll slide-right">Master of Science (M.S.) in Statistics and Data Science at Stanford.
-          </h2>
-        </section>
-        <h2 class="front right text2 js-scroll slide-right">2017-2021</h2>
-        <section class="row row2">
-          <img src="img/uf.png" class="exp-img js-scroll slide-left"/>
-          <h2 class="front text2 js-scroll slide-right">Bachelor of Science (B.S.) in Industrial and Systems Engineering at the University of Florida.
-          </h2>
-        </section>
-      </div>
-    </section>
-    <section class="row full-width" id="experience-section">
-      <div class="experience-text">
-        <h1 class="heading exp js-scroll fade-in">Work Experience</h1>
-        <h2 class="front right text2 js-scroll slide-right">Current</h2>
-        <section class="row row2">
-          <img src="img/google.png" class="exp-img js-scroll slide-left"/>
-          <h2 class="front text2 js-scroll slide-right">I am a Machine Learning Engineer at Google, working on the Google Search team. I work on unstructured data retrieval using LLM's. This is part of Google's Proactive AI initiative, which aims to improve the search experience for users by providing more relevant and personalized search results.
-          </h2>
-        </section>
-        <h2 class="front right text2 js-scroll slide-right">Summer 2023</h2>
-        <section class="row row2">
-          <img src="img/google.png" class="exp-img js-scroll slide-left"/>
-          <h2 class="front text2 js-scroll slide-right">Working on the Google Search team, I implemented tree-based models for continuous retraining within Search Notifications. The model tunes notification cutoff thresholds daily to automatically meet daily target metrics.
-            This project is part of a larger effort to improve the Google Search Notifications experience for millions of mobile users, and is currently in production.
-          </h2>
-        </section>
-        <h2 class="front right text2 js-scroll slide-right">Summer 2022</h2>
-        <section class="row row2">
-          <img src="img/datadog.png" class="exp-img js-scroll slide-left dd-light"/>
-          <img src="img/datadog_dm.png" class="exp-img js-scroll slide-left dd-dark"/>
-          <h2 class="front text2 js-scroll slide-right">Working on the Root Cause Analysis (RCA) team, I Implemented a change-point detection algorithm for isolating anomalies on time-series data from the Watchdog platform. 
-            Additionally, I built a JS-based tool for visualizing time-series data and anomalies, and worked on improving the RCA platform's UI/UX.
-          </h2>
-        </section>
-        <h2 class="front right text2 js-scroll slide-right">Summer 2021</h2>
-        <section class="row row2">
-          <img src="img/google.png" class="exp-img js-scroll slide-left"/>
-          <h2 class="front text2 js-scroll slide-right">Working on the Google Looker Studio team,
-            I built a custom visualizations for the Looker platform, and worked on improving the Looker extension framework. 
-            I also worked on a project to improve the Looker extension developer experience, and built a tool to automate the process of creating Looker extensions.
-          </h2>
-        </section>
-        <a href="duncan_ross_resume.pdf" target="_blank"><h2 class="exp external bottom js-scroll fade-in dm-text">View My Resume ></h2></a>
-      </div>
-    </section>
-    <section class="row full-width" id="projects-section">
-      <div class="border-top js-scroll slide-left dm-img"></div>
-      <div class="border-top2 js-scroll slide-left dm-img"></div>
-      <div class="projects-text">
-        <h1 class="heading exp js-scroll fade-in align-top">Projects</h1>
-        <div>
-          <h2 class="exp external conocosafe underline red js-scroll slide-left proj-margin-top-bottom" style="cursor: pointer;">Glassdoor Reviews: Employee Sentiment Analysis</h2>
-          <div class="conocosafe-proj">
-            <a href="https://github.com/duncan-ross/Glassdoor-Research" target="_blank"><img src="img/sentiment_analysis.png" class="project-txt project-img"/></a>
-            <h2 class="text text3 no-margin-top project-txt">Management science research focused on understanding how employee sentiment towards their employer changes over time. Specifically, looking at Glassdoor reviews written by employees and comparing pre/post IPO sentiment across several topics.
-              This is a full stack project, and contains code for scraping the relevant reviews from Glassdoor, data processing, clustering and topic modeling, data mining and analysis.
-            </h2>
-          </div>
-        </div>
-        <div>
-          <h2 class="exp external birthday underline blue js-scroll slide-right proj-margin-top-bottom" style="cursor: pointer;">Automating English Language Proficiency Assessments</h2>
-          <div class="birthday-proj">
-            <a href="https://github.com/duncan-ross/nlp-toefl-autograder" target="_blank"><img src="img/nlp_toefl.png" class="project-txt project-img"/></a>
-            <h2 class="text text3 no-margin-top project-txt">Class project for CS224N: Natural Language Processing with Deep Learning. We built a model to automatically grade English language proficiency exams such as the TOEFL and FCE. We built transformer
-              models for written and spoken proficiency, aiming to provide a more accurate and fair assessment of English language proficiency.
-          </div>
-        </div>
-        <div>
-          <h2 class="exp external happy underline green js-scroll slide-left proj-margin-top-bottom" style="cursor: pointer;">Predicting Patient Fall Risk from Smartphone Videos</h2>
-          <div class="happy-proj">
-            <a href="https://github.com/duncan-ross/cv-fall-risk-predictions" target="_blank"><img src="img/fall_risk.png" class="project-txt project-img"/></a>
-            <h2 class="text text3 no-margin-top project-txt align-top">Class project for CS231N: Computer Vision.  In an effort to design useful and practical models for simpler, cheaper,
-              and more accessible diagnostics compared to expensive laboratory tests, we built a model to predict patient fall risk from sit-to-stand videos filmed at home.  
-              We used a combination of pose estimation and video classification to predict fall risk based on markers such as ankle angles and hip rotation.
-            </h2>
-          </div>
-        </div>
-        <div>
-        <h2 class="exp external js-scroll fade-in scrolled">View more of my projects on <a class="underline" href="https://github.com/duncan-ross" target="_blank">Github</a></h2>
-      </div>
-      </div>
-      <div class="border-bottom js-scroll slide-right dm-img"></div>
-      <div class="border-bottom2 js-scroll slide-right dm-img"></div>
-    </section>
-    <img src="img/menubar.png" class="menu-img dm-img" style="cursor: pointer;"/>
+      </section>
+
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="education">
+          <li><span>M.S. Statistics and Data Science, Stanford</span><span class="meta">2024</span></li>
+          <li><span>B.S. Industrial and Systems Engineering, University of Florida</span><span class="meta">2021</span></li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <span>© <span id="year">2026</span> Duncan Ross</span>
+        <nav class="links" aria-label="Contact">
+          <a href="https://github.com/duncan-ross">GitHub</a>
+          <a href="https://www.linkedin.com/in/duncanrosss/">LinkedIn</a>
+          <a href="mailto:duncanross.eng@gmail.com">Email</a>
+        </nav>
+      </footer>
+    </main>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
   </body>
 </html>
