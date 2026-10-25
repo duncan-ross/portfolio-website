@@ -123,7 +123,8 @@ h3 {
 /* Work */
 
 .role-head,
-.project-head {
+.project-head,
+.education-head {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -146,6 +147,15 @@ h3 {
 
 .role li {
   margin: 4px 0;
+}
+
+.when {
+  margin-right: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 /* Projects */
@@ -193,11 +203,13 @@ h3 {
   list-style: none;
 }
 
-.education li {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  padding: 6px 0;
+.education li + li {
+  margin-top: 16px;
+}
+
+.degree {
+  margin: 2px 0 0;
+  color: var(--muted);
 }
 
 /* Footer */
@@ -225,7 +237,7 @@ h3 {
 
   .role-head,
   .project-head,
-  .education li {
+  .education-head {
     flex-direction: column;
     gap: 0;
   }
