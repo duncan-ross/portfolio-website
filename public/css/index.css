@@ -5,8 +5,6 @@
   --border: #e6e6e3;
   --accent: #2f5bd3;
   --tag-bg: #f0f0ee;
-  --placeholder: #b45309;
-  --placeholder-bg: #fff8eb;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,8 +15,6 @@
     --border: #2a2a2e;
     --accent: #7b9cff;
     --tag-bg: #1d1d21;
-    --placeholder: #f5b454;
-    --placeholder-bg: #241c10;
   }
 }
 
@@ -140,28 +136,6 @@ h3 {
 
 .role li {
   margin: 4px 0;
-}
-
-.placeholder {
-  position: relative;
-  padding: 20px;
-  border: 1px dashed var(--placeholder);
-  border-radius: 10px;
-  background: var(--placeholder-bg);
-}
-
-.placeholder::before {
-  content: "Placeholder";
-  position: absolute;
-  top: -10px;
-  left: 16px;
-  padding: 0 8px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--placeholder);
-  background: var(--bg);
 }
 
 /* Projects */
