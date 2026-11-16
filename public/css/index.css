@@ -145,6 +145,10 @@ h3 {
   padding-left: 1.2em;
 }
 
+.role + .role {
+  margin-top: 36px;
+}
+
 .role li {
   margin: 4px 0;
 }
